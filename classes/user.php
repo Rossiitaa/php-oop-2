@@ -4,7 +4,6 @@
         protected $surname;
         protected $address;
         protected $discount = 0;
-    }
 
     public function __construct($_name, $_surname, $_address) {
         $this->name = $_name;
@@ -43,3 +42,4 @@
     public function setDiscount($_discount) {
         $this->discount = $_discount;
     }
+}

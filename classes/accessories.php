@@ -1,12 +1,11 @@
 <?php
-    include_once __DIR__ '/product.php';
+    include_once __DIR__ . '/product.php';
 
     class Accessories extends Product {
         protected $color;
         protected $material;
         protected $size;
         protected $weight;
-    }
 
     public function __construct($_name, $_price, $_description, $_color, $_material, $_size, $_weight) {
         parent::__construct($_name, $_price, $_description);
@@ -47,3 +46,5 @@
     public function setWeight($_weight) {
         $this->weight = $_weight;
     }
+
+}

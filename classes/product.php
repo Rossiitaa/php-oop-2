@@ -3,7 +3,6 @@
         protected $name;
         protected $price;
         protected $description;
-    }
 
     public function __construct($_name, $_price, $_description) {
         $this->name = $_name;
@@ -34,5 +33,6 @@
     public function setDescription($_description) {
         $this->description = $_description;
     }
+}
 
 

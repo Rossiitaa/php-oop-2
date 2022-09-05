@@ -5,7 +5,6 @@
         protected $email;
         protected $password;
         protected $discount = 20;
-    }
 
     public function __construct($_name, $_surname, $_address, $_email, $_password) {
         parent::__construct($_name, $_surname, $_address);
@@ -36,4 +35,4 @@
     public function setDiscount($_discount) {
         $this->discount = $_discount;
     }
-
+}

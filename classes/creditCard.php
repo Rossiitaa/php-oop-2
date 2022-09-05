@@ -4,7 +4,6 @@
         protected $expirationDate;
         protected $cvv;
         protected $owner;
-    }
 
     public function __construct($_cardNumber, $_expirationDate, $_cvv, $_owner) {
         $this->cardNumber = $_cardNumber;
@@ -44,3 +43,4 @@
     public function setOwner($_owner) {
         $this->owner = $_owner;
     }
+}

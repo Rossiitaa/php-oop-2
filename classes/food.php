@@ -1,11 +1,10 @@
 <?php
-    include_once __DIR__ '/product.php';
+    include_once __DIR__ . '/product.php';
 
     class Food extends Product {
         protected $expirationDate;
         protected $weight;
         protected $calories;
-    }
 
     public function __construct($_name, $_price, $_description, $_expirationDate, $_weight, $_calories) {
         parent::__construct($_name, $_price, $_description);
@@ -37,3 +36,4 @@
     public function setCalories($_calories) {
         $this->calories = $_calories;
     }
+}
