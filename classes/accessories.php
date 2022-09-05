@@ -1,7 +1,7 @@
 <?php
-    include_once '/product.php';
+    include_once __DIR__ '/product.php';
 
-    class accessories extends Product {
+    class Accessories extends Product {
         protected $color;
         protected $material;
         protected $size;
